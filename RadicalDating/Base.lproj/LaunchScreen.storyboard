@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_splash" translatesAutoresizingMaskIntoConstraints="NO" id="6S5-OV-c3h">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo_large" translatesAutoresizingMaskIntoConstraints="NO" id="D79-AU-7VB">
+                                <rect key="frame" x="0.0" y="571" width="304" height="88"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D79-AU-7VB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="21a-ky-FWG"/>
+                            <constraint firstAttribute="trailing" secondItem="6S5-OV-c3h" secondAttribute="trailing" id="6od-YZ-fii"/>
+                            <constraint firstItem="D79-AU-7VB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="JdX-1X-GcJ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="D79-AU-7VB" secondAttribute="bottom" constant="8" symbolic="YES" id="Jig-ES-pjP"/>
+                            <constraint firstItem="6S5-OV-c3h" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="TK7-F7-Fjh"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6S5-OV-c3h" secondAttribute="bottom" id="a1J-8j-3Yg"/>
+                            <constraint firstItem="6S5-OV-c3h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="a2c-GY-4HC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="21a-ky-FWG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_logo_large" width="304" height="88"/>
+        <image name="img_splash" width="320" height="568"/>
+    </resources>
+</document>
